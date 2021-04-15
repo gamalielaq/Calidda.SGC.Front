@@ -1,10 +1,64 @@
-
 //---login--------------------------------
 .style-input-password {
-    .p-inputtext{
-      padding: 0.6rem 0.7rem;
+  .p-inputtext {
+    padding: 0.6rem 0.7rem;
+  }
+  i:last-of-type {
+    color: black;
+  }
+}
+
+// ---titulos ----------------------------
+.p-custom {
+  &-title {
+    font-size: 16px;
+    color: $color-darkblue;
+    font-weight: 500;
+  }
+  &-text {
+    font-size: 11px;
+    font-weight: 300;
+    opacity: 0.8;
+    margin: 8px 0 20px;
+  }
+
+  &-content {
+    background: #fff;
+    padding: 21px 18px;
+    border-radius: 5px;
+  }
+
+  &-btn {
+    margin: 28px 0 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    p-button {
+      margin: 0 4px;
     }
-    i:last-of-type {
-      color: black;
-    }
+  }
+}
+
+//circle
+.icon-mood {
+  font-size: 8px;
+  vertical-align: top;
+  margin-top: 4px;
+}
+
+
+//buttons
+.btn-group {
+  .p-button, input, .field {
+      margin: 0 0.3rem;
+  }
+}
+.btn-group {
+  margin: 0 -0.3rem;
+  align-items: center;
+}
+
+.p-chips .p-chips-multiple-container .p-chips-token {
+  font-family: sans-serif;
 }

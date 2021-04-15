@@ -1,3 +1,27 @@
 .w-100 {
     width: 100% !important;
 }
+.b-0 {
+    border: 0 !important;
+}
+.bl-0 {
+    border-left: 0 !important;
+}
+//colors
+.red {   
+    color: #E31919
+}
+.green {
+    color: #00A34B
+}
+.orange {
+    color: #FAB200
+}
+.info {
+    color: #00A1DE
+}
+
+//
+.color-primary {
+    color: var(--primary-color) !important;
+}

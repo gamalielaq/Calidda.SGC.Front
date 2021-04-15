@@ -17,7 +17,7 @@ $primary: var(--primary-color);
     border-color: $primary;
     background: transparent;
     color: $primary;
-    padding: 0.75rem 1rem 1rem;
+    padding: 0.75rem 3rem 1rem;
     font-weight: 500;
     border-radius: 20px;
     transition: box-shadow 0.15s;
@@ -71,18 +71,18 @@ $primary: var(--primary-color);
 
 // Content
   .tab-content {
-    background: #fff;
-    padding: 21px 18px;
+    // background: #fff;
+    padding: 0 10px 18px;
     border-radius: 5px;
   
     &-label {
       display: flex;
       justify-content: space-between;
+      font-weight: 500;
     }
   
     &-p {
       color: var(--primary-color);
-      padding: 17px 0;
     }
   }
 
@@ -180,4 +180,20 @@ $primary: var(--primary-color);
   @extend .p-tab-2;
 }
 
-// styleClass="p-tab-1"
+
+.title {
+  font-size: 16px;
+  color: $color-darkblue;
+  font-weight: 500;
+
+  p:nth-of-type(2) {
+    color: var(--primary-color);
+    font-size: 13px;
+    opacity: 0.8;
+    margin-top: 22px;
+  }
+}
+
+.tab-pd {
+  padding: 0 0 18px 12px;
+}
