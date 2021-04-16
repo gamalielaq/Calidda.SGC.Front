@@ -931,7 +931,7 @@ p-inputnumber.ng-dirty.ng-invalid > .p-inputnumber > .p-inputtext {
 }
 
 .p-inputswitch {
-  width: 2.5rem;
+  width: 2rem;
   height: 0.8rem;
 }
 .p-inputswitch .p-inputswitch-slider {
@@ -943,13 +943,13 @@ p-inputnumber.ng-dirty.ng-invalid > .p-inputnumber > .p-inputtext {
   background: #ffffff;
   width: 1.2rem;
   height: 1.2rem;
-  left: -1px;
+  left: -2px;
   margin-top: -0.6rem;
   border-radius: 50%;
   transition-duration: 0.2s;
 }
 .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
-  transform: translateX(1.5rem);
+  transform: translateX(1rem);
 }
 .p-inputswitch.p-focus .p-inputswitch-slider {
   outline: 0 none;
@@ -978,7 +978,7 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.87);
   background: #F6F7F9;
-    padding: 0.7rem 1rem;
+    padding: 0.54rem 1rem;
     border: 1px solid #CED3D9;
   transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
   appearance: none;
@@ -3522,9 +3522,12 @@ p-togglebutton.ng-dirty.ng-invalid > .p-togglebutton.p-button {
   margin-right: 0.5rem;
 }
 .p-dialog .p-dialog-header .p-dialog-header-icon:enabled:hover {
-  color: rgba(0, 0, 0, 0.6);
-  border-color: transparent;
-  background: rgba(0, 0, 0, 0.04);
+  // color: rgba(0, 0, 0, 0.6);
+  color: #ffff;
+  // border-color: transparent;
+  // background: rgba(0, 0, 0, 0.04);
+  background: #00a1de;
+  opacity: 0.8;
 }
 .p-dialog .p-dialog-header .p-dialog-header-icon:focus {
   outline: 0 none;
